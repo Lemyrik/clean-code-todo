@@ -5,7 +5,7 @@ import eslintConfigPrettier from "eslint-config-prettier";
 
 export default defineConfig([
   {
-    files: ["**/*.{js,css}"],
+    files: ["**/*.js"],
     ignores: ["node_modules/**"],
     languageOptions: { globals: globals.browser },
     rules: {
